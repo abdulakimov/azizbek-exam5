@@ -1,0 +1,87 @@
+.about {
+  padding-top: 130px;
+  .about-section {
+    .about-sec-content {
+      .d1 {
+        background: var(--Lavender, #f4f0f8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 54px;
+        .d2 {
+          .p1 {
+            color: var(--Black, #232536);
+            padding-top: 83px;
+            padding-bottom: 24px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+          }
+          .p2 {
+            color: var(--Black, #232536);
+            max-width: 481px;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; /* 142.857% */
+            letter-spacing: -1px;
+          }
+          .p3 {
+            color: var(--Medium-grey, #6d6e76);
+            max-width: 516px;
+            padding-top: 16px;
+            padding-bottom: 109px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+      }
+      #d3 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 90px;
+        padding-top: 0px;
+      }
+      .d3 {
+        padding-top: 122px;
+        padding-bottom: 128px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .d4 {
+          .p4 {
+            color: #232536;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: -2px;
+          }
+          .p5 {
+            max-width: 519px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            color: var(--Black, #232536);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px; /* 133.333% */
+          }
+          .p6 {
+            color: var(--Black, #232536);
+            max-width: 519px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+      }
+    }
+  }
+}

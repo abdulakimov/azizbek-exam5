@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo-div">
+            <div class="logo">
+              <img src="../images/image1.svg" alt="photo" />
+            </div>
+          </div>
+          <div class="nav-items">
+            <div class="nav-links">
+              <a href="../pages/home.html" class="nav-link">Home</a>
+              <a href="../pages/post.html" class="nav-link">Blog</a>
+              <a href="../pages/about.html" class="nav-link">About Us</a>
+              <a href="../index.html" class="nav-link">Register</a>
+            </div>
+            <div class="nav-btn">
+              <a href="../pages/login.html"
+                ><button class="btn1">Login</button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="all">
+      <section class="all-sec">
+        <div class="container">
+          <div class="all-sec-content">
+            <form>
+              <input type="text" class="search" placeholder="Search..." />
+            </form>
+            <p class="p10">All posts</p>
+            <span class="line"></span>
+            <div class="cards"></div>
+            <div class="paginat">
+              <button class="prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1)"
+                >
+                  <path
+                    d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+                  ></path>
+                </svg>
+                Prev
+              </button>
+              <!-- <p class="p20 page-num">1</p>
+              <p class="p20 page-num">2</p>
+              <p class="p20 page-num">3</p>
+              <p class="p20 page-num">4</p> -->
+              <button class="next">
+                Next
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1)"
+                >
+                  <path
+                    d="M10.061 19.061 17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="d1">
+            <p class="p1">Finstreet 118 2561 Fintown</p>
+            <p class="p1">Hello@finsweet.com 020 7993 2905</p>
+          </div>
+          <div class="d2">
+            <div class="svg1"><img src="../images/facebook.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/twit.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/insta.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/linke.svg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../js/all.js"></script>
+  </body>
+</html>

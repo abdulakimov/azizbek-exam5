@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo-div">
+            <div class="logo">
+              <img src="../images/image1.svg" alt="photo" />
+            </div>
+          </div>
+          <div class="nav-items">
+            <div class="nav-links">
+              <a href="../pages/home.html" class="nav-link">Home</a>
+              <a href="../pages/post.html" class="nav-link">Blog</a>
+              <a href="../pages/about.html" class="nav-link">About Us</a>
+              <a href="../index.html" class="nav-link">Register</a>
+            </div>
+            <div class="nav-btn">
+              <a href="../pages/login.html"
+                ><button class="btn1">Login</button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="home">
+      <section class="home-section">
+        <div class="home-sec-content"></div>
+      </section>
+      <section class="lastest-posts">
+        <div class="container">
+          <div class="lastest-posts-content">
+            <p class="p1">Lastest posts</p>
+            <div class="cards"></div>
+            <span class="line2"></span>
+          </div>
+        </div>
+      </section>
+      <section class="category">
+        <div class="container">
+          <p class="p10">Choose A Catagory</p>
+          <div class="category-cards">
+            <div class="category-card">
+              <img src="../images/category1.svg" alt="" class="photo3" />
+              <a
+                href="../pages/category.html"
+                class="p11 move-category1"
+                onclick="getName(aaa1)"
+                >Business</a
+              >
+              <p class="p2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="category-card">
+              <img src="../images/category2.svg" alt="" class="photo3" />
+              <a
+                href="../pages/category.html"
+                class="p11 move-category2"
+                onclick="getName(aaa2)"
+                >Startup</a
+              >
+              <p class="p2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="category-card">
+              <img src="../images/category2.svg" alt="" class="photo3" />
+              <a
+                href="../pages/category.html"
+                class="p11 move-category3"
+                onclick="getName(aaa3)"
+                >Economy</a
+              >
+              <p class="p2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="category-card">
+              <img src="../images/category2.svg" alt="" class="photo3" />
+              <a
+                href="../pages/category.html"
+                class="p11 move-category4"
+                onclick="getName(aaa4)"
+                >Technology</a
+              >
+              <p class="p2">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="d1">
+            <p class="p1">Finstreet 118 2561 Fintown</p>
+            <p class="p1">Hello@finsweet.com 020 7993 2905</p>
+          </div>
+          <div class="d2">
+            <div class="svg1"><img src="../images/facebook.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/twit.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/insta.svg" alt="" /></div>
+            <div class="svg1"><img src="../images/linke.svg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>

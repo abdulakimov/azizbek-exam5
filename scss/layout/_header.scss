@@ -1,0 +1,35 @@
+header {
+  background-color: #232536;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-items {
+      display: flex;
+      align-items: center;
+      column-gap: 52px;
+      .nav-links {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+        .nav-link {
+          transition: 0.4s;
+          color: var(--Light, #fff);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 175% */
+          &:hover {
+            color: #e1ddddd6;
+          }
+        }
+      }
+    }
+  }
+}

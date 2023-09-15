@@ -1,0 +1,40 @@
+.btn1 {
+  transition: 0.4s;
+  background: var(--Light, #fff);
+  color: var(--Black, #232536);
+  padding: 16px 48px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  &:hover {
+    background-color: #f0efefb3;
+  }
+}
+.btn2 {
+  color: var(--Black, #232536);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  margin-top: 50px;
+  width: 768px;
+  background: var(--Yellow, #ffd050);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  &:hover {
+    background-color: #f9d87ff8;
+  }
+}
+.btn3 {
+  padding: 16px 48px;
+  background: var(--Yellow, #ffd050);
+  color: var(--Black, #232536);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  &:hover {
+    background-color: #f9d87ff8;
+  }
+}
