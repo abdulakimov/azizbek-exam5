@@ -8,7 +8,6 @@ const moveCategory4 = document.querySelector(".move-category4");
 async function fetchHomePost() {
   try {
     let res = await axios.get(url);
-    // console.log(res.data);
     displayPosts(res.data);
     displayLastPosts(res.data);
   } catch (error) {
@@ -28,7 +27,7 @@ function displayPosts(post) {
           rgba(0, 0, 0, 0) 0%,
           rgba(0, 0, 0, 0.6) 100%
         ),
-        url('${el.img}');
+        url('${el.image}');
     "
   >
     <div class="container">
@@ -51,7 +50,7 @@ function displayLastPosts(post) {
   post.slice(post.length - 3, post.length).map((el) => {
     str += `  
     <div class="card">
-                <img src="${el.img}" alt="photo"class="photo1"/>
+                <img src="${el.image}" alt="photo"class="photo1"/>
                 <p class="p2">
                   By <span class="sp3">${el.author}</span> | ${el.date}
                 </p>

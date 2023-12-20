@@ -63,7 +63,7 @@ function displayData(post) {
   let str = "";
   post.map((el) => {
     str += `<div class="card">
-    <div class="d1"><img src="${el.img}" alt="" class="img3" /></div>
+    <div class="d1"><img src="${el.image}" alt="" class="img3" /></div>
     <div class="d2">
       <p class="p1">${el.category}</p>
       <a href="../pages/post.html" class="p2" onclick="getId(${el.id})">

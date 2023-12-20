@@ -32,6 +32,8 @@ searchPost.addEventListener("keyup", function (e) {
 
 function displayData(post) {
   let str = "";
+  console.log(post
+    .filter((el) => el.category == aaa));
   post
     .filter((el) => el.category == aaa)
     .slice(0, 1)
@@ -61,7 +63,7 @@ function displayPosts(post) {
     .map((el) => {
       str += `
       <div class="cat-card">
-      <div class="d10"><img src="${el.img}" alt="" class="photo4" /></div>
+      <div class="d10"><img src="${el.image}" alt="" class="photo4" /></div>
       <div class="d11">
         <p class="p11">${el.category}</p>
         <a href="../pages/post.html" class="p12" onclick="getId(${el.id})"

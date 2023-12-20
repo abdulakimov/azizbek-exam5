@@ -20,7 +20,7 @@ function displayPost(post) {
     .map((el) => {
       str += `
       <div class="d1">
-      <img src="${el.img}" alt="photo" class="photo2" />
+      <img src="${el.image}" alt="photo" class="photo2" />
       <div class="d2">
         <p class="p1">${el.author}</p>
         <p class="p2">
